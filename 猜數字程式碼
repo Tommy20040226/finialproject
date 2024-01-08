@@ -200,12 +200,7 @@ module ex0101(input[0:3]IN,
    end
 
 	
-/*	always@(posedge CLK_div,negedge reset)
-	if(!reset)
-	begin
-		COM <= COM + 1'b1;
-	end
-	*/
+
 endmodule
 
 module divfreq(input CLK, output reg CLK_div);
